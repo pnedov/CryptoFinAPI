@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoFinAPI", "CryptoFinAPI.csproj", "{299789AE-58E6-4CF6-A38A-272D8B6C5E17}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoFinAPI.UnitTests", "..\CryptoFinAPI.Tests\CryptoFinAPI.UnitTests.csproj", "{9DDB3864-D948-489B-B2AB-669C0B89DE50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{299789AE-58E6-4CF6-A38A-272D8B6C5E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299789AE-58E6-4CF6-A38A-272D8B6C5E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299789AE-58E6-4CF6-A38A-272D8B6C5E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299789AE-58E6-4CF6-A38A-272D8B6C5E17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DDB3864-D948-489B-B2AB-669C0B89DE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDB3864-D948-489B-B2AB-669C0B89DE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDB3864-D948-489B-B2AB-669C0B89DE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDB3864-D948-489B-B2AB-669C0B89DE50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97071BD7-FB58-4F23-9C98-9B00B5B0DB33}
+	EndGlobalSection
+EndGlobal
