@@ -44,7 +44,9 @@ public class PriceService : IPriceService
             return await processor.AggregateAsync(prices, token);
         }
 
-        // db has not record for required timespan and currency pair 
+        prices = prices ?? [];
+
+        // check format of start date comes from request (seconds or milliseconds)
         foreach (IExternalApiClient clientAPI in _clients)
         {
             if (isSeconds && clientAPI.isUnixTimeMilliseconds)

@@ -91,6 +91,7 @@ public class ServiceClientBitstamp(HttpClient httpClient) : IExternalApiClient
         var query = new Dictionary<string, string>
         {
             { "start", Convert.ToString(hs["start"]) ?? string.Empty },
+            { "end", Convert.ToString(hs["start"]) ?? string.Empty },
             { "limit", Convert.ToString(hs["limit"]) ?? string.Empty },
             { "step",  Convert.ToString(hs["step"])  ?? string.Empty }
         };
