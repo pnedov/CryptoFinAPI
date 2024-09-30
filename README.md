@@ -24,3 +24,5 @@ For API UI has embedded Swagger UI
   - add new external API providers
   - new classes for calculate extracted prices
   - new data providers
+
+This technology and architecture were chosen so that in the future it would be possible to easily expand the functionality and use the project in a more complex system.
