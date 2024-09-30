@@ -25,5 +25,6 @@ For API UI has embedded Swagger UI
   - add new external API providers
   - new classes for calculate extracted prices
   - new data providers
+- Unit tests project contains tests covering base part of code
 
-This technology and architecture were chosen so that in the future it would be possible to easily еьтенд the functionality and integrate this project in a more complex system of microservices.
+This technology and architecture were chosen so that in the future it would be possible to easily extend the functionality and integrate this project in a more complex system of microservices.
