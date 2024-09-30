@@ -1,12 +1,12 @@
-##CrpyptoFin
+## CrpyptoFin
 This repository contains project that gets, agrregates and stores bitcoin prices for specific time point or time range using external public APIs.
 
-##Tehnologies
+## Tehnologies
  - .NET Core 8.0 / C#
  - SQLite
  - Entity Framework Core 8.0
  
-##Swagger UI
+## Swagger UI
 For API UI has embedded Swagger UI 
 ![image](https://user-images.githubusercontent.com/1141095/75820467-0200b380-5d62-11ea-9340-e0942b460eb1.png)
 
@@ -21,6 +21,6 @@ For API UI has embedded Swagger UI
 - UI based on [Swagger UI](https://www.nuget.org/packages/swashbuckle.aspnetcore.swagger/) with minimal custom and support
 - use of well-known 3rd party libraries: [Newtonsoft.Json](https://www.nuget.org/packages/Newtonsoft.Json)
 - code architecture allows easy extend options:
-	- add new external API providers
-	- new classes for calculate extracted prices
+  - add new external API providers
+  - new classes for calculate extracted prices
   - new data providers
