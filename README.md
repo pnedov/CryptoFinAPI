@@ -8,7 +8,7 @@ This repository contains project that gets, agrregates and stores bitcoin prices
  
 ## Swagger UI
 For API UI has embedded Swagger UI 
-![image](https://user-images.githubusercontent.com/1141095/75820467-0200b380-5d62-11ea-9340-e0942b460eb1.png)
+![image](![image](https://github.com/user-attachments/assets/41226084-3834-489a-80d7-130e76b88955)
 
 ##Structure and design
 - microservice, SOA
