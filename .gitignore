@@ -361,3 +361,5 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/CryptoFinAPI/db/crypto_prices.db-shm
+/CryptoFinAPI/db/crypto_prices.db-wal
