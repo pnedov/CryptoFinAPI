@@ -1,5 +1,5 @@
 ## CrpyptoFin
-This repository contains project that gets, agrregates and stores bitcoin prices for specific time point or time range using external public APIs.
+This repository contains project that gets, agrregates and stores cryptocurrencies prices for specific time point or time range using external public APIs.
 
 ## Tehnologies
  - .NET Core 8.0 / C#
