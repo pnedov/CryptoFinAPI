@@ -1,5 +1,5 @@
 ## CrpyptoFin
-This repository contains project that gets, agrregates and stores bitcoin prices for specific time point or time range using external public APIs.
+This repository contains project that gets, agrregates and stores cryptocurrencies prices for specific time point or time range using external public APIs.
 
 ## Tehnologies
  - .NET Core 8.0 / C#
@@ -8,8 +8,9 @@ This repository contains project that gets, agrregates and stores bitcoin prices
  
 ## Swagger UI
 For API UI has embedded Swagger UI 
-![image](![image](https://github.com/user-attachments/assets/41226084-3834-489a-80d7-130e76b88955)
-![image](![image](![image](https://github.com/user-attachments/assets/7b3b1b9d-01fd-41ac-8792-ddb424aa9a87)
+
+![image](https://github.com/user-attachments/assets/41226084-3834-489a-80d7-130e76b88955)
+![image](https://github.com/user-attachments/assets/7b3b1b9d-01fd-41ac-8792-ddb424aa9a87)
 
 ## Structure and design
 - microservice, SOA
@@ -25,5 +26,6 @@ For API UI has embedded Swagger UI
   - add new external API providers
   - new classes for calculate extracted prices
   - new data providers
+- Unit tests project contains tests covering base part of code
 
-This technology and architecture were chosen so that in the future it would be possible to easily еьтенд the functionality and integrate this project in a more complex system of microservices.
+This technology and architecture were chosen so that in the future it would be possible to easily extend the functionality and integrate this project in a more complex system of microservices.
