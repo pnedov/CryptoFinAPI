@@ -5,10 +5,6 @@ using CryptoFinAPI.Controllers;
 using CryptoFinAPI.Models;
 using CryptoFinAPI.Services;
 using Microsoft.Extensions.Logging;
-using CryptoFinAPI.App_Code;
-using CryptoFinAPI.ApiClients;
-using CryptoFinAPI.Repository;
-using CryptoFinAPI.Services.Aggregators;
 
 namespace CryptoFinAPI.UnitTests.Controllers
 {

@@ -28,7 +28,6 @@ services.AddHttpClient<IExternalApiClient, ServiceClientBitstamp>(client =>
 
 var app = builder.Build();
 
-
 var scope = app.Services.CreateScope();
 var db_context = scope.ServiceProvider.GetService<PriceDbContext>();
 db_context.Database.EnsureCreated();

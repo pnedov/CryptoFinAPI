@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using CryptoFinAPI.Models;
 using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
 
 namespace CryptoFinAPI.ApiClients;
 
@@ -23,7 +22,7 @@ public class ServiceClientBitstamp(HttpClient httpClient) : IExternalApiClient
     /// </summary>
     /// <param name="currencyPair">currency pair</param>
     /// <param name="limit">limit</param>
-    /// <param name="startDate">timespan</param>
+    /// <param name="startDate">start point</param>
     /// <param name="token">Cancellation token</param>
     /// <param name="step">step in seconds</param>
     /// <returns></returns>
@@ -56,7 +55,7 @@ public class ServiceClientBitstamp(HttpClient httpClient) : IExternalApiClient
     /// <param name="startDate">start datetime</param>
     /// <param name="endDate">end datetime</param>
     /// <param name="step">range result</param>
-    /// <param name="token"></param>
+    /// <param name="token">cancellation token</param>
     /// <returns></returns>
     public Task<IList<PricePoint>> GetPriceForTimeRangeAsync(string currencyPair, string limit, string startDate, string endDate, string step, CancellationToken token)
     {

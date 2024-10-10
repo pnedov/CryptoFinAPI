@@ -49,7 +49,6 @@ public class ServiceClientBitsFinex(HttpClient httpClient) : IExternalApiClient
         }
 
         pricePoint = castSingleType(content, currencyPair, startDate);
-        response.EnsureSuccessStatusCode();
 
         return await Task.FromResult(pricePoint);
     }
@@ -112,8 +111,8 @@ public class ServiceClientBitsFinex(HttpClient httpClient) : IExternalApiClient
     /// Map response object to single model object
     /// </summary>
     /// <param name="respObject">response object</param>
-    /// <param name="currencyPair"></param>
-    /// <param name="startDate"></param>
+    /// <param name="currencyPair">currency pair</param>
+    /// <param name="startDate">start point</param>
     /// <returns></returns>
     private PricePoint castSingleType(string respObject, string currencyPair, string startDate)
     {
@@ -137,9 +136,9 @@ public class ServiceClientBitsFinex(HttpClient httpClient) : IExternalApiClient
     /// Map response object to multi model object
     /// </summary>
     /// <param name="respObject">response object</param>
-    /// <param name="currencyPair">pair currencies name</param>
-    /// <param name="startDate"></param>
-    /// <param name="endDate"></param>
+    /// <param name="currencyPair">pair currencies</param>
+    /// <param name="startDate">start point</param>
+    /// <param name="endDate">end point</param>
     /// <returns></returns>
     IList<PricePoint> castMultiType(string respObject, string currencyPair, string startDate, string endDate)
     {

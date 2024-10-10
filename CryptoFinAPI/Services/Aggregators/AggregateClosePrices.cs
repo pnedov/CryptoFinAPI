@@ -1,5 +1,4 @@
 ﻿using CryptoFinAPI.Models;
-using System.Threading;
 
 namespace CryptoFinAPI.Services.Aggregators;
 
