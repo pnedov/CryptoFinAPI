@@ -35,12 +35,14 @@ public class UtilsUnitTest
         {
             //Act
             string from = "1672696800";
+            string actual_from = "1672696800000";
             string to = "1723150800";
+            string actual_to = "1723150800000";
             Utils.convertToMillisecondsRange(ref from, ref to);
 
             //Assert
-            Assert.Equal(from, "1672696800000");
-            Assert.Equal(to, "1723150800000");
+            Assert.Equal(from, actual_from);
+            Assert.Equal(to, actual_to);
         }
 
         /// <summary>
@@ -51,10 +53,11 @@ public class UtilsUnitTest
         {
             //Act
             string from = "1672696800";
+            string actual_from = "1672696800000";
             Utils.convertToMilliseconds2(ref from);
 
             //Assert
-            Assert.Equal(from, "1672696800000");
+            Assert.Equal(from, actual_from);
 
         }
 
@@ -66,11 +69,14 @@ public class UtilsUnitTest
         {
             //Act
             string from = "1672696800000";
+            string actual_from = "1672696800";
             string to = "1672696800000";
+            string actual_to = "1672696800";
+
             Utils.convertToSeconds(ref from, ref to);
 
             //Assert
-            Assert.Equal(from, "1672696800");
-            Assert.Equal(to, "1672696800");
+            Assert.Equal(from, actual_from);
+            Assert.Equal(to, actual_to);
         }
 }

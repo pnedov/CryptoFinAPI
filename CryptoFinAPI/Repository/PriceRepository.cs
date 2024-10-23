@@ -10,7 +10,7 @@ public class PriceRepository : IPriceRepository
     /// <summary>
     /// initialize DbContext object
     /// </summary>
-    /// <param name="_context"></param>
+    /// <param name="context"></param>
     public PriceRepository(PriceDbContext context)
     {
         _context = context;
